@@ -1,0 +1,49 @@
+.dashboard {
+  width: 100%;
+  padding: 24px;
+}
+
+.title {
+  margin-bottom: 16px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.box {
+  width: 300px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.box dt {
+  font-weight: 500;
+}
+
+.statusHeading {
+  margin: 0 0 12px;
+}
+
+.ongoing {
+  color: green;
+}
+
+.other {
+  color: blue;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.row dd {
+  margin: 0;
+}

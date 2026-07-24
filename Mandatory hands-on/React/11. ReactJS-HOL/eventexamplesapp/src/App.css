@@ -1,0 +1,73 @@
+.app-shell {
+  min-height: 100vh;
+  padding: 32px 20px;
+  background: linear-gradient(135deg, #f8f5ff, #eef6ff);
+  color: #1f2937;
+}
+
+.hero-card,
+.demo-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+  padding: 24px;
+}
+
+.hero-card {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.demo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.demo-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.value,
+.message {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #4c1d95;
+}
+
+.button-row,
+.converter-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+button,
+input {
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  padding: 10px 12px;
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  background: #7c3aed;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background: #6d28d9;
+}
+
+input {
+  flex: 1 1 180px;
+}
+
+label {
+  width: 100%;
+  font-weight: 600;
+}
